@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Carnet de Conducir</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Carnet de Conducir</h1>
+        
+        <!-- Formulario para ingresar información -->
+        <form id="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" required>
+
+            <label for="pais">País:</label>
+            <input type="text" id="pais" required>
+
+            <button type="submit">Generar Carnet</button>
+        </form>
+
+        <div id="carnet" class="carnet"></div>
+    </div>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
